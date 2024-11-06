@@ -53,7 +53,9 @@
     }
 
     #courses div{
-        margin: 1rem;
+        grid-column: 1/2;
+        display: block;
+        margin: 0.5rem;
     }
 
     .filternav a{

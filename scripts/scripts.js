@@ -5,8 +5,8 @@ document.getElementById("lastModified").innerHTML = new Date(document.lastModifi
 const navshow = document.querySelector('.navshow')
 const hambutton = document.querySelector('#menu');
 hambutton.addEventListener('click', () => {
-	navshow.classList.toggle('show');
-	hambutton.classList.toggle('show');
+    navshow.classList.toggle('show');
+    hambutton.classList.toggle('show');
 
 });
 
@@ -90,19 +90,33 @@ const courses = [
     }
 ]
 
-function ShowCourses(list){
-    document.getElementById("courses").innerHTML="";
+function ShowCourses(list) {
+    document.getElementById("courses").innerHTML = "";
     list.forEach(element => {
-        let course=document.createElement("div");
+        let course = document.createElement("div");
 
-        course.innerHTML=`<p> ${element.subject} ${element.number}</p>`;
-        if (element.completed==true)
-            course.setAttribute("class","completed");
+        course.innerHTML = `<p> ${element.subject} ${element.number}</p>`;
+        if (element.completed == true)
+            course.setAttribute("class", "completed");
         else
-            course.setAttribute("class","uncompleted");
+            course.setAttribute("class", "uncompleted");
 
         document.getElementById('courses').appendChild(course);
     });
+    const creditlist = list;
+    const credits=creditlist.reduce((accumulate, element, index)=>{
+        if (element.completed==true){
+            const creditvalue=element.credits;
+            return accumulate+creditvalue;
+        }
+        else{
+            return accumulate+0;
+        }
+    }, 0);
+    const creditsshown = document.createElement("p")
+    creditsshown.innerHTML = `Credits: ${credits}`;
+    creditsshown.setAttribute("class","g3 creditsshown");
+    document.getElementById('courses').appendChild(creditsshown);
 }
 
 ShowCourses(courses);
@@ -112,13 +126,13 @@ const cse = document.querySelector('#cse');
 const wdd = document.querySelector('#wdd');
 
 all.addEventListener('click', () => {
-	ShowCourses(courses);
-  });
+    ShowCourses(courses);
+});
 
 wdd.addEventListener('click', () => {
-	ShowCourses(courses.filter(course => course.subject == 'WDD'));
-  });
+    ShowCourses(courses.filter(course => course.subject == 'WDD'));
+});
 
 cse.addEventListener('click', () => {
     ShowCourses(courses.filter(course => course.subject == 'CSE'));
-  });
+});
