@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles-small.css">
+    <script src="scripts/scripts.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+         rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="bluetitle">
+            <img src="images/profile.jpg" height="150" alt="Profile Picture">
+            <h1>Bruce Bennet</h1>
+            <button id="menu" title="menu button"></button>
+        </div> 
+        <nav class="navshow">
+            <a href="index.html">Home</a>
+            <a href="">Chamber</a>
+            <a href="https://github.com/BruzzBennet/">GitHub Profile</a>
+            <a href="https://www.linkedin.com/in/bruce-bennet-t/">LinkedIn</a>
+        </nav>
+    </header>
+    <main>
+        <div class="threegrid">
+            <section class="g2">
+                <h2 class="bluetitle">Course Work</h2>
+            </section>
+            <section class="g2">
+                <h2 class="bluetitle">Coatzacoalos, Veracruz</h2> 
+                <img src="images/coatza.webp" id="coatza" height="300" alt="Profile Picture">
+                <br>
+                <label for="coatza">A Pyramid in Coatzacoalcos</label>
+            </section>
+            <section class="g1">
+                <h2 class="bluetitle">Web and Computer Programming Certificate</h2>
+                <nav class="filternav">
+                    <a id="all">All</a>
+                    <a id="cse">CSE</a>
+                    <a id="wdd">WDD</a>
+                </nav> 
+                <hr>
+                <div id="courses"></div>
+            </section>
+        </div>
+    </main>
+    <footer class="bluetitle">
+       <p><span id="currentyear"></span> | Bruce Bennet | Mexico</p>
+       <p><span id="lastModified"></span></p> 
+    </footer> 
+</body>
+</html>
