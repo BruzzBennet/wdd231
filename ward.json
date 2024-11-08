@@ -1,0 +1,23 @@
+{
+	"family_name": "Alvarado",
+	"date_of_movement": "15 Oct 2024",
+	"record_number":3,
+	"visited_by_bishopric": true,
+	"family_members":[
+		{
+			"name":"Rafael Alvarado"
+			"gender": "M"
+			"birthdate":"3 Feb 1965"
+		},
+		{
+			"name":"Esther Treviño"
+			"gender": "F"
+			"birthdate":"21 Feb 1971"
+		},
+		{
+			"name":"Bruce Bennet"
+			"gender": "M"
+			"birthdate":"5 May 2000"
+		}
+	]
+}
