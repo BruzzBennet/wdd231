@@ -5,18 +5,18 @@
 	"visited_by_bishopric": true,
 	"family_members":[
 		{
-			"name":"Rafael Alvarado"
-			"gender": "M"
+			"name":"Rafael Alvarado",
+			"gender": "M",
 			"birthdate":"3 Feb 1965"
 		},
 		{
-			"name":"Esther Treviño"
-			"gender": "F"
+			"name":"Esther Treviño",
+			"gender": "F",
 			"birthdate":"21 Feb 1971"
 		},
 		{
-			"name":"Bruce Bennet"
-			"gender": "M"
+			"name":"Bruce Bennet",
+			"gender": "M",
 			"birthdate":"5 May 2000"
 		}
 	]

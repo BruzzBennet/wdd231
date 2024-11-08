@@ -1,0 +1,53 @@
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cards section{
+    margin:1rem;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: steelblue;
+    color: white;
+    filter: drop-shadow(4px 4px 5px black);
+}
+
+#cards section img{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-bottom: -1rem;
+}
+
+header, footer{
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 1rem;
+}
+
+footer{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.filternav{
+    display: flex;
+    justify-content: center;
+}
+
+.filternav a{
+    border-radius: 1rem;
+    background-color: black;
+    padding: 1rem;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
