@@ -1,0 +1,60 @@
+{
+    "members":[
+        {
+            "name":"Burger King",
+            "address":"Avenue 1st 111",
+            "number":"(208) 455-1223",
+            "website":"burgerking.com",
+            "img":"",
+            "level":1
+        },
+        {
+            "name":"McDonalds",
+            "address":"Avenue 2nd 222",
+            "number":"(208) 657-1223",
+            "website":"mcdonalds.com",
+            "img":"",
+            "level":2
+        },
+        {
+            "name":"Apple",
+            "address":"Avenue 11 321",
+            "number":"(208) 645-1321",
+            "website":"apple.com",
+            "img":"",
+            "level":3
+        },
+        {
+            "name":"Home Depot",
+            "address":"Avenue 3rd 675",
+            "number":"(208) 353-3436",
+            "website":"homedepot.com",
+            "img":"",
+            "level":1
+        },
+        {
+            "name":"Nike",
+            "address":"Avenue 34 4234",
+            "number":"(208) 132-6547",
+            "website":"nike.com",
+            "img":"",
+            "level":3
+        },
+        {
+            "name":"Adidas",
+            "address":"Avenue 65 1654",
+            "number":"(208) 454-1227",
+            "website":"adidas.com",
+            "img":"",
+            "level":2
+        },
+        {
+            "name":"Sony",
+            "address":"Avenue 67 667",
+            "number":"(208) 244-2435",
+            "website":"sony.com",
+            "img":"",
+            "level":3
+        }
+    ]
+}

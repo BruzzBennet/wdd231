@@ -1,0 +1,122 @@
+.eventsandwheather{
+    display:grid;
+    grid-template-columns: 3fr 2fr 2fr;
+    text-align: center;
+    margin:1rem;
+}
+
+.eventsandwheather div h2{
+    background-color: steelblue;
+    color: white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.events{
+    grid-column: 1/2;
+}
+
+.events, .wheather, .forecast{
+    border-radius: 1rem;
+    border: solid black 1px;
+    margin:1rem;
+    /* padding: 1rem; */
+}
+
+.wheatherimg{
+    border:none;
+    display: grid;
+    grid-template-columns: 1fr 2.25fr;
+}
+
+.wheatherimg img{
+    margin: 0 auto;
+}
+
+.wheatherimg div{
+    text-align: left;
+    grid-column: 2/3;
+}
+
+.label{
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+}
+
+.label p{
+    margin: 0;
+    padding: 0.15rem;
+}
+
+.label p:first-child{
+    grid-column: 1/2;
+    text-align: right;
+    font-weight: 700;
+}
+
+.label p:last-child{
+    grid-column: 2/3;
+}
+
+.forecast div.label{
+    font-size: 1.5rem;
+}
+
+.forecast div.label{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.wheatherimg div:not(.label), .forecast div:not(.label){
+    margin: 1rem;
+}
+
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: steelblue;
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+
+.grid section{
+    display:grid;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    border: solid black 1px;
+    padding: 1rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.list{
+    display:flex;
+    flex-direction: column;
+}
+
+.list section{
+    display: grid;
+}
+
+.list section div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+}
+
+.list section img {
+	display: none;
+}
+
+.list section:nth-child(even) {
+	background-color: #bed;
+}
