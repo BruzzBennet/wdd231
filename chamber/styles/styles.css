@@ -97,6 +97,10 @@ footer{
     overflow: hidden;
 }
 
+.bigimage img{
+    width: 100%;
+}
+
 .sociallinks img{
     width:15%;
     margin:0 1.5rem;
