@@ -109,3 +109,17 @@ footer{
 /* .sociallinks{
     text-align: center;
 } */
+ 
+.spotlight > h2{
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem;
+}
+.spotlight{
+    display: grid;  
+    grid-template-columns: 1fr 1fr;
+}
+
+#spotlight{
+    grid-column: 1/3;
+}

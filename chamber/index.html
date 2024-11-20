@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/styles-small.css">
     <link rel="stylesheet" href="styles/directory.css">
     <link rel="stylesheet" href="styles/directory-small.css">
-    <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/scriptindex.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -44,12 +44,62 @@
         <div class="bigimage">
             <img src="images/timbuktu.jpg" alt="timbuktu">
         </div> 
-        <div class="menu">
-            <button id="grid">⏹️Grid</button>
-            <button id="list">📄List</button>
-        </div>
-        <div id="members" class="grid">
+        <div class="eventsandwheather">
+            <h1 class="eawt">Home</h1>
+            <div class="events">
+                <h2>Events</h2>
+            </div> 
+            <div class="wheather">
+                <h2>Current Wheather</h2>
+                <div class="wheatherimg">
+                    <img id="weather-icon" src="" alt="">
+                    <div>
+                        <div class="label">
+                            <p>Temperature:</p>
+                            <p id="current-temp"></p>
+                        </div> 
+                        <div class="label">
+                            <p>Conditions:</p>
+                            <p id="weatherdesc"></p>
+                        </div>
+                        <div class="label">
+                            <p>High:</p>
+                            <p id="tempmax"></p>
+                        </div>
+                        <div class="label">
+                            <p>Low:</p>
+                            <p id="tempmin"></p>
+                        </div>
+                        <div class="label">
+                            <p>Humidity:</p>
+                            <p id="humidity"></p>
+                        </div>
+                    </div>                    
+                </div>               
+            </div> 
+            <div class="forecast">
+                <h2>Wheather Forecast</h2>
+                <div>
+                    <div class="label">
+                        <p>Today:</p>
+                        <p id="current-temp1"></p>
+                    </div>
+                    <div class="label">
+                        <p>Tomorrow:</p>
+                        <p id="tomorrow"></p>
+                    </div>
+                    <div class="label">
+                        <p>The day after tomorrow:</p>
+                        <p id="tomorrow1"></p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="spotlight">
+            <h2>Spotlight</h2>
+            <div id="spotlight" class="grid">
 
+            </div>
         </div>
     </main>
     <footer>

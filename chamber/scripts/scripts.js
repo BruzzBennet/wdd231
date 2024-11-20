@@ -18,9 +18,10 @@ async function getData(url){
 	const data = await response.json();
     const members= data.members;
     displayMembers(members);
-}
+};
 
 getData(url);
+
 
 const displayMembers = (members) => {
     document.getElementById("members").innerHTML = "";
