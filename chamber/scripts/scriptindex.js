@@ -77,7 +77,6 @@ function displayMember(array){
 
 const currentTemp = document.querySelector('#current-temp');
 const currentTemp1 = document.querySelector('#current-temp1');
-const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('#weatherdesc');
 const humidity = document.querySelector('#humidity');
 const tempmin = document.querySelector('#tempmin');
@@ -142,13 +141,17 @@ async function apiFetch3(){
 }
 apiFetch3();
 
+const wheatherimg=document.querySelector("#wheatherimg");
+
 function displayWeatherResults(data) {
     currentTemp.innerHTML = `${data.main.temp}&deg;C`;
     currentTemp1.innerHTML = `${data.main.temp}&deg;C`;
     const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
     let desc = data.weather[0].description;
-    weatherIcon.setAttribute('alt', desc);
-    weatherIcon.setAttribute('src', iconsrc);
+    const wheatherIcon = document.createElement('img');
+    wheatherIcon.setAttribute('alt', desc);
+    wheatherIcon.setAttribute('src', iconsrc);
+    wheatherimg.appendChild(wheatherIcon);
     captionDesc.textContent = `${desc}`;
     let humid = data.main.humidity;
     humidity.textContent=`${humid}%`;
