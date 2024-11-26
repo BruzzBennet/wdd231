@@ -65,6 +65,11 @@ h2{
 .navshow ul{
     display: flex;
     justify-content: flex-end;
+    margin: 0;
+}
+
+.navshow ul li{
+    padding: 1.5rem 3rem;
 }
 
 .filternav a, .navshow a{
@@ -75,9 +80,26 @@ h2{
     font-weight: 600;
 }
 
-.navshow ul li a:hover{
-    text-decoration: underline;
+.filternav a:hover{
+    background-color: steelblue;
+    animation-duration: 0.7s;
+    animation-name: grow-shrink;
+}
+
+@keyframes grow-shrink {
+    50% {
+      scale: 115%;
+    }
+  }
+
+.navshow ul li:hover, #courses div:hover{
+    background-color: steelblue;
+    color:white;
     /* font-weight: 700; */
+}
+
+ul{
+    list-style-type: none;
 }
 
 footer.bluetitle{
@@ -137,3 +159,60 @@ section img{
 .creditsshown{
     font-size: 2rem;
 }
+
+::backdrop{
+    background-color: rbg(0,0,0/0.5);
+}
+
+dialog{
+    background-color: white;
+    border-radius: 1rem;
+    border: 1px solid black;
+    box-shadow: 0 0 3rem black;
+    width: 90%;
+    max-width: 600px;
+    text-align: left;
+}
+
+dialog button{
+    position:absolute;
+    top:1rem;
+    right:1rem;
+    padding:0.5rem 1rem;
+}
+
+.g2{
+    animation-duration: 1.5s;
+    animation-name: slide-in;
+}
+
+@keyframes slide-in {
+    from {
+      translate: 150vw 0;
+      scale: 135% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+}
+
+.fade-in {
+    display: block;
+    animation: fade-in 0.75s ease-in forwards;
+}
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+      display: none;
+    }
+  
+    100% {
+      opacity: 1;
+      display: block;
+    }
+  }
+  
+  

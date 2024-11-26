@@ -2,7 +2,7 @@ document.getElementById("currentyear").innerHTML = new Date().getFullYear();
 
 document.getElementById("lastModified").innerHTML = new Date(document.lastModified);
 
-const navshow = document.querySelector('.navshow')
+const navshow = document.querySelector('.navshow');
 const hambutton = document.querySelector('#menu');
 hambutton.addEventListener('click', () => {
     navshow.classList.toggle('show');
@@ -100,7 +100,10 @@ function ShowCourses(list) {
             course.setAttribute("class", "completed");
         else
             course.setAttribute("class", "uncompleted");
-
+        course.addEventListener('click',()=>{
+            displayCourseDetails(element);
+        });
+        course.classList.add("fade-in");
         document.getElementById('courses').appendChild(course);
     });
     const creditlist = list;
@@ -136,3 +139,22 @@ wdd.addEventListener('click', () => {
 cse.addEventListener('click', () => {
     ShowCourses(courses.filter(course => course.subject == 'CSE'));
 });
+
+const courseDetails = document.querySelector('#course-details');
+
+function displayCourseDetails(course){
+    courseDetails.innerHTML=``;
+    courseDetails.innerHTML=`
+    <button id="closeModal">X</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits:</strong> ${course.credits}</p>
+    <p><strong>Certificate:</strong> ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies:</strong> ${course.technology.join(', ')}</p>
+    `;
+    courseDetails.showModal();
+    closeModal.addEventListener('click',()=>{
+        courseDetails.close();
+    });
+}
