@@ -34,7 +34,7 @@
         overflow: hidden;
     }
 
-    .navshow.show, .filternav.show{
+    .navshow.show{
        grid-template-rows: 1fr;
         text-align: center;
         transition: grid-template-rows 0.5s ease-out;

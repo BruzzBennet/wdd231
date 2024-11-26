@@ -62,6 +62,10 @@ h2{
     background-color: black;
 }
 
+ul{
+    list-style: none;
+}
+
 .navshow ul{
     display: flex;
     justify-content: flex-end;
@@ -69,7 +73,7 @@ h2{
 }
 
 .navshow ul li{
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 0;
 }
 
 .filternav a, .navshow a{
@@ -96,10 +100,6 @@ h2{
     background-color: steelblue;
     color:white;
     /* font-weight: 700; */
-}
-
-ul{
-    list-style-type: none;
 }
 
 footer.bluetitle{
