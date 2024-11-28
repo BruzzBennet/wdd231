@@ -1,0 +1,160 @@
+*{box-sizing: border-box;}
+html {
+  -webkit-text-size-adjust: 100%; 
+  -ms-text-size-adjust: 100%;
+}
+
+main h1,h2 {
+  color: #3D405B;
+}
+
+main{
+    padding: 1rem;
+}
+
+#results{
+    margin-top: 1rem;
+    font-size: 1.15rem;
+}
+
+form {
+    margin: 1rem 2%;
+  
+    label {
+      display: block;
+      font-size: .8rem;
+      color: steelblue;
+      margin-top: 0.9rem;
+      padding-top: .2rem;
+      font-weight: 700;
+      font-size: 0.90rem;
+    }
+
+    .membership label{
+        margin:0;
+    }
+
+    input[type="radio"]+label{
+        margin-top:0;
+    }
+    h3 {
+      font-size: .9rem;
+      color: steelblue;
+      /* background-color: steelblue;
+      padding: 1rem; */
+      margin: 1.5rem 0 .2rem 0;
+      border-bottom: 1px solid #eee;
+      /* width:50%; */
+    }
+  
+    input[type=text],
+    input[type=tel],
+    input[type=date],
+    input[type=email],
+    textarea
+    {
+      display: block;
+      margin: rem 0 1rem 0 ;
+      padding: .3rem;
+      border: 1px solid #999;
+      border-radius: 4px;
+      border-left-width: 5px;
+      border-left-color:#555;
+      font-size: 1rem;
+      color: #3D405B;
+    }
+
+    input[type=text],
+    input[type=tel],
+    input[type=date],
+    input[type=email],
+    textarea,
+    input[type=submit]
+    {
+    max-width: 500px;
+      width:100%;
+    }
+
+    input:required {border-left-color: #d70000;}
+    input:focus {border-left-color: black; outline:none;}
+    input:required:valid{border-left-color: green;}
+  
+    input[type=submit] {
+      border: none;
+      text-align: center;
+      background-color: #3D405B;
+      color: white;
+      border-radius: 1rem;
+      padding: .75rem 1.5rem;
+      margin: 2rem 0;
+      font-size: 1.2rem;
+      -webkit-appearance: none;
+      appearance: none;
+    }
+  }
+  input:-webkit-autofill{
+    -webkit-text-fill-color: #3D405B;
+  }
+
+  @keyframes slide-in {
+    from {
+      translate: 150vw 0;
+      scale: 135% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+
+}
+
+::backdrop{
+    background-color: rbg(0,0,0/0.5);
+}
+
+dialog{
+    background-color: white;
+    border-radius: 1rem;
+    border: 1px solid black;
+    box-shadow: 0 0 3rem black;
+    width: 90%;
+    max-width: 600px;
+    text-align: left;
+}
+
+dialog p{
+    margin:1rem;
+}
+
+dialog button{
+    position:absolute;
+    top:1rem;
+    right:1rem;
+    padding:0.5rem 1rem;
+}
+
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#courses{
+    animation-duration: 1.5s;
+    animation-name: slide-in;
+}
+
+.member > h2{
+    margin:1.5rem;
+}
+
+#courses div{
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    font-weight: 700;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: steelblue;
+    color: white;
+}
