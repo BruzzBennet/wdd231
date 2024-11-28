@@ -1,8 +1,4 @@
 *{box-sizing: border-box;}
-html {
-  -webkit-text-size-adjust: 100%; 
-  -ms-text-size-adjust: 100%;
-}
 
 main h1,h2 {
   color: #3D405B;
@@ -19,8 +15,8 @@ main{
 
 form {
     margin: 1rem 2%;
-  
-    label {
+}
+label {
       display: block;
       font-size: .8rem;
       color: steelblue;
@@ -91,7 +87,6 @@ form {
       -webkit-appearance: none;
       appearance: none;
     }
-  }
   input:-webkit-autofill{
     -webkit-text-fill-color: #3D405B;
   }
