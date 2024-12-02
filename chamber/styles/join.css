@@ -103,7 +103,7 @@ label {
 }
 
 ::backdrop{
-    background-color: rbg(0 0 0 0.5);
+    background-color: rbg(0 0 0 / 0.5);
 }
 
 dialog{
