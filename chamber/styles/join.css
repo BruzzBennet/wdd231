@@ -93,19 +93,17 @@ label {
 
   @keyframes slide-in {
     from {
-      translate: 150vw 0;
-      scale: 135% 1;
+      transform: translate(150vw, 0);
     }
   
     to {
-      translate: 0 0;
-      scale: 100% 1;
+      transform: translate(0, 0);
     }
 
 }
 
 ::backdrop{
-    background-color: rbg(0,0,0/0.5);
+    background-color: rbg(0 0 0 0.5);
 }
 
 dialog{
