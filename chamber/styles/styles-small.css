@@ -72,4 +72,15 @@
         width:10%;
         margin:1.5rem;
     }
+
+    .discover{
+        grid-template-columns: 1fr;
+    }
+    .discoverimages{
+        grid-column: 1/2;
+    }
+
+    .discoverimages img:hover{
+        border: none;
+    }
 }
