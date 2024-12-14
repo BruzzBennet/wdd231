@@ -326,7 +326,7 @@
             "Element": "Human",
             "Archetype": "Defender",
             "image":"images/MetalTrainer.png",
-            "T ransformations":[
+            "Transformations":[
                 {
                     "name":"Dual Masters",
                     "obtain":"Master",
