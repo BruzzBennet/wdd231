@@ -156,7 +156,7 @@
                 {
                     "name":"Tesla Club",
                     "obtain":"Equipment",
-                    "image":"images/TeslaClub.png"
+                    "image":"images/Teslaclub.png"
                 }
             ]
         },
@@ -202,13 +202,13 @@
                 {
                     "name":"Order Arms",
                     "obtain":"Equipment",
-                    "image":"images/CubCatArms.png"
+                    "image":"images/CubcatArms.png"
                 }
                 ,
                 {
                     "name":"Order Legs",
                     "obtain":"Equipment",
-                    "image":"images/CubCatLegs.png"
+                    "image":"images/CubcatLegs.png"
                 }
             ]
         },
@@ -437,7 +437,7 @@
                 {
                     "name":"D.M. Patrol",
                     "obtain":"Master",
-                    "image":"images/DmPatrol.png"
+                    "image":"images/DMPatrol.png"
                 },
                 {
                     "name":"Sherimp",
