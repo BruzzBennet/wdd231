@@ -156,6 +156,12 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .imagepopright{
+        position: absolute;
+        top:5%;
+        left:12.5%;
+    }
+
     img{
         max-width:75%;
         height: auto;
