@@ -1,0 +1,549 @@
+{
+    "characters":[
+        { 
+            "name": "Hartle",
+            "Element": "Earth",
+            "Archetype": "Middler",
+            "image":"images/Hartle.png",
+            "Transformations":[
+                {
+                    "name":"D.M. Saltador",
+                    "obtain":"Master",
+                    "image":"images/DMSaltador.png"
+                },
+                {
+                    "name":"Snartle",
+                    "obtain":"Joy",
+                    "image":"images/Snartle.png"
+                },
+                {
+                    "name":"Hartle Arms",
+                    "obtain":"Equipment",
+                    "image":"images/HartleArms.png"
+                },
+                {
+                    "name":"Hartle Legs",
+                    "obtain":"Equipment",
+                    "image":"images/HartleLegs.png"
+                },
+                {
+                    "name":"Hartle Flail",
+                    "obtain":"Equipment",
+                    "image":"images/HartleFlail.png"
+                }
+            ]
+        },
+        { 
+            "name": "Gymmie",
+            "Element": "Metal",
+            "Archetype": "Hitter",
+            "image":"images/Gymmie.png",
+            "Transformations":[
+                {
+                    "name":"D.M. Gym",
+                    "obtain":"Master",
+                    "image":"images/DMGym.png"
+                },
+                {
+                    "name":"Gymmiam",
+                    "obtain":"Joy",
+                    "image":"images/Gymmiam.png"
+                },
+                {
+                    "name":"Gymmie Arms",
+                    "obtain":"Equipment",
+                    "image":"images/GymmieArms.png"
+                },
+                {
+                    "name":"Gymmie Legs",
+                    "obtain":"Equipment",
+                    "image":"images/GymmieLegs.png"
+                },
+                {
+                    "name":"Weight Club",
+                    "obtain":"Equipment",
+                    "image":"images/WeightClub.png"
+                }
+            ]
+        },
+        { 
+            "name": "Icie",
+            "Element": "Ice",
+            "Archetype": "Healer",
+            "image":"images/Icie.png",
+            "Transformations":[
+                {
+                    "name":"D.M. Icie",
+                    "obtain":"Master",
+                    "image":"images/DMIcie.png"
+                },
+                
+                {
+                    "name":"Krim",
+                    "obtain":"Joy",
+                    "image":"images/Krim.png"
+                },
+                {
+                    "name":"Icie Claw",
+                    "obtain":"Equipment",
+                    "image":"images/IcieClaw.png"
+                },
+                {
+                    "name":"Icie Piercer",
+                    "obtain":"Equipment",
+                    "image":"images/IciePiercer.png"
+                }
+            ]
+        },
+        { 
+            "name": "Pachycano",
+            "Element": "Fire",
+            "Archetype": "Debuffer",
+            "image":"images/Pachycano.png",
+            "Transformations":[
+                {
+                    "name":"D.M. Flame",
+                    "obtain":"Master",
+                    "image":"images/DMFlame.png"
+                },
+                {
+                    "name":"Pachyburner",
+                    "obtain":"Equipment",
+                    "image":"images/Pachyburner.png"
+                }
+            ]
+        },
+        { 
+            "name": "Bubbler",
+            "Element": "Water",
+            "Archetype": "Recoverer",
+            "image":"images/Bubbler.png",
+            "Transformations":[
+                {
+                    "name":"D.M. Bubble",
+                    "obtain":"Master",
+                    "image":"images/DMBubble.png"
+                },
+                {
+                    "name":"Bubble Arm",
+                    "obtain":"Equipment",
+                    "image":"images/BubbleArm.png"
+                },
+                {
+                    "name":"Bubble Legs",
+                    "obtain":"Equipment",
+                    "image":"images/BubblerLegs.png"
+                },
+                {
+                    "name":"Bubbler Wand",
+                    "obtain":"Equipment",
+                    "image":"images/BubblerWand.png"
+                }
+            ]
+        },
+        { 
+            "name": "Poslet",
+            "Element": "Electric",
+            "Archetype": "Healer",
+            "image":"images/Poslet.png",
+            "Transformations":[
+                {
+                    "name":"D.M. Charge",
+                    "obtain":"Master",
+                    "image":"images/DMCharge.png"
+                },
+                {
+                    "name":"Tesla Club",
+                    "obtain":"Equipment",
+                    "image":"images/TeslaClub.png"
+                }
+            ]
+        },
+        { 
+            "name": "Cleasse",
+            "Element": "Wind",
+            "Archetype": "Recoverer",
+            "image":"images/Cleasse.png",
+            "Transformations":[
+                {
+                    "name":"D.M. Clean",
+                    "obtain":"Master",
+                    "image":"images/DMClean.png"
+                },
+                {
+                    "name":"Whacuum",
+                    "obtain":"Joy",
+                    "image":"images/Whacuum.png"
+                },
+                {
+                    "name":"VaBroom",
+                    "obtain":"Equipment",
+                    "image":"images/VaBroom.png"
+                }
+            ]
+        },
+        { 
+            "name": "Cubcat",
+            "Element": "Dark",
+            "Archetype": "Resourcerer",
+            "image":"images/Cubcat.png",
+            "Transformations":[
+                {
+                    "name":"D.M. Order",
+                    "obtain":"Master",
+                    "image":"images/DMOrder.png"
+                },
+                {
+                    "name":"Order Club",
+                    "obtain":"Equipment",
+                    "image":"images/OrderClub.png"
+                },
+                {
+                    "name":"Order Arms",
+                    "obtain":"Equipment",
+                    "image":"images/CubCatArms.png"
+                }
+                ,
+                {
+                    "name":"Order Legs",
+                    "obtain":"Equipment",
+                    "image":"images/CubCatLegs.png"
+                }
+            ]
+        },
+        { 
+            "name": "Puncher",
+            "Element": "Human",
+            "Archetype": "Middler",
+            "image":"images/Puncher.png",
+            "Transformations":[
+                {
+                    "name":"Dual Masters",
+                    "obtain":"Master",
+                    "image":"images/DualMasters.png"
+                },
+                {
+                    "name":"Evolver",
+                    "obtain":"Joy",
+                    "image":"images/Evolver.png"
+                },
+                {
+                    "name":"Summoner",
+                    "obtain":"Equipment",
+                    "image":"images/Summoner.png"
+                }
+            ]
+        },
+        { 
+            "name": "Pachyser",
+            "Element": "Water",
+            "Archetype": "Booster",
+            "image":"images/Pachyser.png",
+            "Transformations":[
+                {
+                    "name":"D.M. Splash",
+                    "obtain":"Master",
+                    "image":"images/DMSplash.png"
+                },
+                {
+                    "name":"Jet Splaser A",
+                    "obtain":"Equipment",
+                    "image":"images/JetSplasherA.png"
+                }
+            ]
+        },
+        { 
+            "name": "Earth Trainer",
+            "Element": "Human",
+            "Archetype": "Resourcerer",
+            "image":"images/EarthTrainer.png",
+            "Transformations":[
+                {
+                    "name":"Dual Masters",
+                    "obtain":"Master",
+                    "image":"images/DualMasters.png"
+                },
+                {
+                    "name":"Evolver",
+                    "obtain":"Joy",
+                    "image":"images/Evolver.png"
+                },
+                {
+                    "name":"Summoner",
+                    "obtain":"Equipment",
+                    "image":"images/Summoner.png"
+                }
+            ]
+        }, 
+        { 
+            "name": "Water Trainer",
+            "Element": "Human",
+            "Archetype": "Middler",
+            "image":"images/WaterTrainer.png",
+            "Transformations":[
+                {
+                    "name":"Dual Masters",
+                    "obtain":"Master",
+                    "image":"images/DualMasters.png"
+                },
+                {
+                    "name":"Evolver",
+                    "obtain":"Joy",
+                    "image":"images/Evolver.png"
+                },
+                {
+                    "name":"Summoner",
+                    "obtain":"Equipment",
+                    "image":"images/Summoner.png"
+                }
+            ]
+        }, 
+        { 
+            "name": "MonTrainer",
+            "Element": "Human",
+            "Archetype": "Resourcerer",
+            "image":"images/MonTrainer.png",
+            "Transformations":[
+                {
+                    "name":"Dual Masters",
+                    "obtain":"Master",
+                    "image":"images/DualMasters.png"
+                },
+                {
+                    "name":"Evolver",
+                    "obtain":"Joy",
+                    "image":"images/Evolver.png"
+                },
+                {
+                    "name":"Summoner",
+                    "obtain":"Equipment",
+                    "image":"images/Summoner.png"
+                }
+            ]
+        }, 
+        { 
+            "name": "Metal Trainer",
+            "Element": "Human",
+            "Archetype": "Defender",
+            "image":"images/MetalTrainer.png",
+            "T ransformations":[
+                {
+                    "name":"Dual Masters",
+                    "obtain":"Master",
+                    "image":"images/DualMasters.png"
+                },
+                {
+                    "name":"Evolver",
+                    "obtain":"Joy",
+                    "image":"images/Evolver.png"
+                },
+                {
+                    "name":"Summoner",
+                    "obtain":"Equipment",
+                    "image":"images/Summoner.png"
+                }
+            ]
+        },{ 
+            "name": "Ice Trainer",
+            "Element": "Human",
+            "Archetype": "Debuffer",
+            "image":"images/IceTrainer.png",
+            "Transformations":[
+                {
+                    "name":"Dual Masters",
+                    "obtain":"Master",
+                    "image":"images/DualMasters.png"
+                },
+                {
+                    "name":"Evolver",
+                    "obtain":"Joy",
+                    "image":"images/Evolver.png"
+                },
+                {
+                    "name":"Summoner",
+                    "obtain":"Equipment",
+                    "image":"images/Summoner.png"
+                }
+            ]
+        },
+        { 
+            "name": "Bodiwall",
+            "Element": "Metal",
+            "Archetype": "Defender",
+            "image":"images/Bodiwall.png",
+            "Transformations":[
+                {
+                    "name":"D.M. Armor",
+                    "obtain":"Master",
+                    "image":"images/DMArmor.png"
+                },
+                {
+                    "name":"Walldian",
+                    "obtain":"Joy",
+                    "image":"images/Walldian.png"
+                },
+                {
+                    "name":"Bodiwall Arms",
+                    "obtain":"Equipment",
+                    "image":"images/BodiwallArms.png"
+                },
+                {
+                    "name":"Bodiwall Legs",
+                    "obtain":"Equipment",
+                    "image":"images/BodiwallLegs.png"
+                }
+            ]
+        }, 
+        { 
+            "name": "Quax",
+            "Element": "Metal",
+            "Archetype": "Debuffer",
+            "image":"images/Quax.png",
+            "Transformations":[
+                {
+                    "name":"D.M. Chop",
+                    "obtain":"Master",
+                    "image":"images/DMChop.png"
+                },
+                {
+                    "name":"Platarou",
+                    "obtain":"Joy",
+                    "image":"images/Platarou.png"
+                },
+                {
+                    "name":"Quax Axe",
+                    "obtain":"Equipment",
+                    "image":"images/QuaxAxe.png"
+                },
+                {
+                    "name":"Quax Arms",
+                    "obtain":"Equipment",
+                    "image":"images/QuaxArms.png"
+                },
+                {
+                    "name":"Quax Legs",
+                    "obtain":"Equipment",
+                    "image":"images/QuaxLegs.png"
+                }
+            ]
+        }, 
+        { 
+            "name": "Crabcuff",
+            "Element": "Metal",
+            "Archetype": "Debuffer",
+            "image":"images/Crabcuff.png",
+            "Transformations":[
+                {
+                    "name":"D.M. Patrol",
+                    "obtain":"Master",
+                    "image":"images/DmPatrol.png"
+                },
+                {
+                    "name":"Sherimp",
+                    "obtain":"Joy",
+                    "image":"images/Sherimp.png"
+                },
+                {
+                    "name":"Crabarang",
+                    "obtain":"Equipment",
+                    "image":"images/Crabarang.png"
+                },
+                {
+                    "name":"Crabcuff Arms",
+                    "obtain":"Equipment",
+                    "image":"images/CrabcuffArms.png"
+                }
+            ]
+        }, 
+        { 
+            "name": "Yetty",
+            "Element": "Ice",
+            "Archetype": "Middler",
+            "image":"images/Yetty.png",
+            "Transformations":[
+                {
+                    "name":"D.M. Yetty",
+                    "obtain":"Master",
+                    "image":"images/DMYetty.png"
+                },
+                {
+                    "name":"Yetty Claw",
+                    "obtain":"Equipment",
+                    "image":"images/YettyClaw.png"
+                }
+            ]
+        }, 
+        { 
+            "name": "Torgloo",
+            "Element": "Ice",
+            "Archetype": "Defender",
+            "image":"images/Torgloo.png",
+            "Transformations":[
+                {
+                    "name":"D.M. Chill",
+                    "obtain":"Master",
+                    "image":"images/DMChill.png"
+                },
+                {
+                    "name":"Igloo Puncher",
+                    "obtain":"Equipment",
+                    "image":"images/IglooPuncher.png"
+                }
+            ]
+        }, 
+        { 
+            "name": "Wheark",
+            "Element": "Water",
+            "Archetype": "Middler",
+            "image":"images/Wheark.png",
+            "Transformations":[
+                {
+                    "name":"D.M. Bite",
+                    "obtain":"Master",
+                    "image":"images/DMBite.png"
+                },
+                {
+                    "name":"WhearkArm",
+                    "obtain":"Equipment",
+                    "image":"images/WhearkArm.png"
+                }
+            ]
+        }, 
+        { 
+            "name": "Angryhuahua",
+            "Element": "Earth",
+            "Archetype": "Hitter",
+            "image":"images/Angryhuahua.png",
+            "Transformations":[
+                {
+                    "name":"D.M. Rage",
+                    "obtain":"Master",
+                    "image":"images/DMRage.png"
+                },
+                {
+                    "name":"Powmekai",
+                    "obtain":"Joy",
+                    "image":"images/Powmekai.png"
+                }
+            ]
+        }, 
+        { 
+            "name": "Huntegg",
+            "Element": "Earth",
+            "Archetype": "Defender",
+            "image":"images/Huntegg.png",
+            "Transformations":[
+                {
+                    "name":"D.M. Prey",
+                    "obtain":"Master",
+                    "image":"images/DMPrey.png"
+                },
+                {
+                    "name":"Veloxoar",
+                    "obtain":"Joy",
+                    "image":"images/Veloxoar.png"
+                }
+            ]
+        }
+    ]
+}
