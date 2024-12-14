@@ -5,7 +5,8 @@
             "Element": "Earth",
             "Archetype": "Middler",
             "image":"images/Hartle.png",
-            "Transformations":[
+            "Transformations":
+            [
                 {
                     "name":"D.M. Saltador",
                     "obtain":"Master",
